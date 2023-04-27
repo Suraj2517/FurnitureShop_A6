@@ -135,6 +135,6 @@ class Program
         ShowStockDetails(stock);
 
         double totalValue = TotalStockValue(stock);
-        Console.WriteLine("\nTotal stock value: {0:c}", totalValue);
+        Console.WriteLine("\nTotalCost of Accepted Stock: {0}Rs", totalValue);
     }
 }
